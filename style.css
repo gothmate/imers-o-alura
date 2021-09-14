@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-height: 8rem;
+  background-color: #9400d3;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: white;
+  margin-top: 3px;
+}
+
+.page-logo {
+  width: 15rem;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+#formularios {
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.neon {
+  margin: 2rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  background: rgb(80, 136, 153);
+  color: white;
+  font-size: 1.5rem;
+  transition: 500ms ease-in-out;
+}
+
+.neon:hover {
+  box-shadow: 0 1px 5px rgb(212, 236, 240), 0 0 10px rgb(212, 236, 240),
+    0 0 18px rgb(212, 236, 240), 0 0 22px rgba(212, 236, 240, 0.8),
+    0 0 25px rgba(212, 236, 240, 0.5), 0 0 30px rgba(212, 236, 240, 0.3);
+}
+
+input {
+  display: block;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+#solucao {
+  color: #fff;
+}
